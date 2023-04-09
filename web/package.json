@@ -1,0 +1,22 @@
+{
+  "name": "ePaper-news",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "solid-icons": "^1.0.4",
+    "solid-js": "^1.6.10",
+    "solidjs-div-100vh": "^1.0.1"
+  }
+}

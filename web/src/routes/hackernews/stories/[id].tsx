@@ -1,7 +1,7 @@
 import { Component, createResource, For, Show } from "solid-js";
 import { A, RouteDataArgs, useRouteData } from "solid-start";
 import Comment from "~/components/comment";
-import fetchAPI from "~/lib/api";
+import fetchAPI from "~/lib/hackernews";
 import { IStory } from "~/types";
 
 export const routeData = (props: RouteDataArgs) => {

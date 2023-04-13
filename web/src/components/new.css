@@ -1,0 +1,19 @@
+.news-card {
+    border-radius: 10px;
+    border-color: black;
+    border-style: dashed;
+    border-width: thin;
+    max-width: 50%;
+    padding: 10px;
+}
+
+.news-des img {
+    float: left;
+    margin-right: 10px;
+    min-width: 25%;
+    max-width: 50%;
+}
+
+.news-des h1 {
+    margin: 10px;
+}

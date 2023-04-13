@@ -1,7 +1,7 @@
 import { Component, createResource, For, Show } from "solid-js";
 import { A, RouteDataArgs, useRouteData } from "solid-start";
 import Story from "~/components/story";
-import fetchAPI from "~/lib/api";
+import fetchAPI from "~/lib/hackernews";
 import { IStory } from "~/types";
 
 const mapStories = {

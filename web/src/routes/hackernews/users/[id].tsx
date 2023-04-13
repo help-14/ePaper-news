@@ -1,6 +1,6 @@
 import { Component, createResource, Show } from "solid-js";
 import { RouteDataArgs, useRouteData } from "solid-start";
-import fetchAPI from "~/lib/api";
+import fetchAPI from "~/lib/hackernews";
 
 interface IUser {
   error: string;

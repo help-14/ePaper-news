@@ -15,7 +15,7 @@ export default function Root() {
         <Link rel="manifest" href="/manifest.webmanifest" />
       </Head>
       <Body>
-        <Nav />
+        {/* <Nav /> */}
         <ErrorBoundary>
           <Suspense fallback={<div class="news-list-nav">Loading...</div>}>
             <Routes>

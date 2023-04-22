@@ -33,4 +33,5 @@ export type PostItem = {
 export enum SiteEnum {
   VnExpress = 'vne',
   HackerNews = 'hkn',
+  ThanhNien = 'tnvn',
 }
